@@ -1,4 +1,4 @@
-# my-leetcode-solution
+# go-algorithms
 
 My LeetCode solutions (go version).
 
