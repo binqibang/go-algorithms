@@ -1,12 +1,11 @@
-// Package slidingwindow
-// @summary: LeetCode questions about "sliding window"
-// @author : binqibang
-// @create : 2022-07-22 11:43
 package slidingwindow
 
 import "math"
 
-// FindMaxAverage LeetCode #634 (Easy)
+// FindMaxAverage
+// @summary: LeetCode #634 (Easy)
+// @author : binqibang
+// @create : 2022-07-22 11:43
 func FindMaxAverage(nums []int, k int) float64 {
 	var sum = 0
 	var ans = -10e4

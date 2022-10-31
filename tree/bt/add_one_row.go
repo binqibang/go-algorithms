@@ -1,10 +1,9 @@
 package bt
 
+// AddOneRow DFS
 // @summary: LeetCode #623 (Medium)
 // @author: binqibang
 // @create: 2022-08-05
-
-// AddOneRow DFS
 func AddOneRow(root *TreeNode, val int, depth int) *TreeNode {
 	if root == nil {
 		return nil

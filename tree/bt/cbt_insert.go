@@ -1,6 +1,7 @@
 package bt
 
-// CBTInserter @summary: LeetCode #919 (Medium)
+// CBTInserter
+// @summary: LeetCode #919 (Medium)
 // @author: binqibang
 // @create: 2022-07-25 09:22
 type CBTInserter struct {

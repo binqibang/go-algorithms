@@ -1,10 +1,9 @@
-// Package string
-// @summary: LeetCode questions about "string"
-// @author: binqibang
-// @created: 2022-07-30 11:16
 package string
 
-// ShortestToChar LeetCode #821 (Easy)
+// ShortestToChar
+// @summary: LeetCode #821 (Easy)
+// @author : binqibang
+// @created: 2022-07-30 11:16
 func ShortestToChar(s string, c byte) []int {
 	n := len(s)
 	ans := make([]int, n)

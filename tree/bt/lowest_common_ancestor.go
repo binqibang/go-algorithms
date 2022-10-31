@@ -1,10 +1,9 @@
 package bt
 
-// @summary: Lowest Common Ancestor problems.
+// LowestCommonAncestor
+// @summary: LeetCode #236 (Medium)
 // @author : binqibang
 // @created: 2022/8/25 11:15
-
-// LowestCommonAncestor LeetCode #236 (Medium)
 func LowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 	if root == nil || root == p || root == q {
 		return root

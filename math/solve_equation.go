@@ -5,10 +5,10 @@ import (
 	"unicode"
 )
 
+// SolveEquation
 // @summary: LeetCode #640 (Medium)
 // @author : binqibang
 // @created: 2022/8/10 21:46
-
 func SolveEquation(equation string) string {
 	// 系数，值
 	factor, val := 0, 0

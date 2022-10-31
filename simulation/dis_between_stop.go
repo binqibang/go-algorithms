@@ -1,7 +1,3 @@
-// Package simulation
-// @summary: LeetCode questions about "simulation"
-// @author : binqibang
-// @create : 2022-07-24 10:53
 package simulation
 
 func min(a, b int) int {
@@ -12,7 +8,10 @@ func min(a, b int) int {
 	}
 }
 
-// DistanceBetweenBusStops LeetCode #1184 (Easy)
+// DistanceBetweenBusStops
+// @summary: LeetCode #1184 (Easy)
+// @author : binqibang
+// @created: 2022-07-24 10:53
 func DistanceBetweenBusStops(distance []int, start int, destination int) int {
 	// 顺时针距离
 	var cwDis = 0

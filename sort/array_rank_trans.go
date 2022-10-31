@@ -1,12 +1,11 @@
-// Package sort
-// @summary: LeetCode questions about "sort"
-// @author : binqibang
-// @create : 2022-07-28 11:03
 package sort
 
 import "sort"
 
-// ArrayRankTransform LeetCode #1331 (Easy)
+// ArrayRankTransform
+// @summary: LeetCode #1331 (Easy)
+// @author : binqibang
+// @create : 2022-07-28 11:03
 func ArrayRankTransform(arr []int) []int {
 	// 复制 arr 到 sorted，且改变 sorted 的值不会影响原切片
 	sorted := make([]int, len(arr))

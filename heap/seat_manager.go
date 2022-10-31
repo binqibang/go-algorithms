@@ -7,9 +7,9 @@ import "container/heap"
 
 type MinHeap []int
 
-func (h MinHeap) Len() int           { return len(h) }
-func (h MinHeap) Less(i, j int) bool { return h[i] < h[j] }
-func (h MinHeap) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
+func (h *MinHeap) Len() int           { return len(*h) }
+func (h *MinHeap) Less(i, j int) bool { return (*h)[i] < (*h)[j] }
+func (h *MinHeap) Swap(i, j int)      { (*h)[i], (*h)[j] = (*h)[j], (*h)[i] }
 
 func (h *MinHeap) Push(x interface{}) {
 	// Push and Pop use pointer receivers because they modify the slice's length,
@@ -25,7 +25,10 @@ func (h *MinHeap) Pop() interface{} {
 	return x
 }
 
-// SeatManager LeetCode #1834 (Medium)
+// SeatManager
+// @summary: LeetCode #1834 (Medium)
+// @author : binqibang
+// @created: 2022-07-26 15:43
 type SeatManager struct {
 	seats *MinHeap
 }
