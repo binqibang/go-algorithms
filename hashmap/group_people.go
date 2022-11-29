@@ -1,6 +1,3 @@
-// Package hashmap @summary: LeetCode questions about "hashmap"
-// @author : binqibang
-// @created: 2022/8/12 11:57
 package hashmap
 
 func GroupThePeople(groupSizes []int) [][]int {
